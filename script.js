@@ -30,7 +30,7 @@ function calculaIMC( )
 
           resutado = document.getElementById("exibe")
           imcTela = document.createElement("label")
-          imcTela.textContent = `Seu IMC é : ${imc.toFixed(2)} (Peso Normal)`
+          imcTela.textContent = `Seu IMC é: ${imc.toFixed(2)} (Pouco acima do peso)`
           resutado.appendChild(imcTela)
         }
 
