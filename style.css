@@ -37,11 +37,10 @@ h1
     border: none;
 }
 
-.alert-primary
+.alert-light
 {
     font-size: 18px;
-    align-items: center;
-    text-align: center;
+    text-align: center
 }
 
 ul
