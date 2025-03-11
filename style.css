@@ -74,8 +74,9 @@ label
         font-size: 18px;
     }
 
-    .alert-primary
+    .alert-light
     {
         font-size: 15px;
+        text-align: left;
     }
 }
