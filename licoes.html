@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <title>Cálculo IMC</title>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="row">
+    <div class="alert alert-light">
+      <p><b>Grau I: </b> Obesidade moderada, quando o IMC está entre 30 e 34,9</p>
+      <p><b>Grau II: </b>Obesidade leve ou moderada, quando o IMC está entre 35 e 39,9</p>
+      <p><b>Grau III:</b> Obesidade mórbida, quando o IMC está acima de 40</p>
+    </div>
+  </div>
+  <div class="container">
+    <h1>Calculadora IMC</h1>
+      <input class="form-control-lg" type="number" id="peso" required placeholder="Digite seu peso:"><br><br>
+      <input class="form-control-lg" type="number" id="altura" required placeholder="Digite sua altura:"><br><br>
+      <button class="btn btn-primary btn-lg" type="button" onclick="calculaIMC()">Ver Resultado</button>
+
+      <ul id="exibe">
+        
+      </ul>
+    </div>
+    <script src="./script.js"></script>
+    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
